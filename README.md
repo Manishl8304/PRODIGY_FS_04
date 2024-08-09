@@ -31,17 +31,3 @@
    ```
 
 5. Open your browser and navigate to `http://localhost:8000`.
-
-## Usage
-
-- **Add Employee**: Use the form to input employee details and save them to the database.
-- **Update Employee**: Edit existing employee information.
-- **Delete Employee**: Remove an employee from the database.
-- **View Employees**: See a list of all employees with search and filter options.
-
-## Project Structure
-
-```bash
-PRODIGY_FS_04/
-├── backend/
-│   ├── controllers/
