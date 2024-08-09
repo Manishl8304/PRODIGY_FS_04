@@ -1,1 +1,47 @@
-# Chat-App
+
+---
+
+# PRODIGY_FS_04 - Real Time Chat Application
+
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Manishl8304/PRODIGY_FS_04.git
+   cd PRODIGY_FS_04
+   ```
+
+2. Install dependencies for both frontend and backend:
+   ```bash
+   npm install
+
+
+3. Create a `.env` file in the `backend` directory with the following variables:
+   ```bash
+   GMAIL_USERNAME = ''
+   GMAIL_PASSWORD = ''  
+   DATABASE = 'your database link'
+   DATABASE_PASS = 'your database password'
+   ```
+
+4. Start the development servers:
+   ```bash
+   npm run start
+   ```
+
+5. Open your browser and navigate to `http://localhost:8000`.
+
+## Usage
+
+- **Add Employee**: Use the form to input employee details and save them to the database.
+- **Update Employee**: Edit existing employee information.
+- **Delete Employee**: Remove an employee from the database.
+- **View Employees**: See a list of all employees with search and filter options.
+
+## Project Structure
+
+```bash
+PRODIGY_FS_04/
+├── backend/
+│   ├── controllers/
